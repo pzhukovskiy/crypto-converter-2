@@ -1,0 +1,33 @@
+.table {
+    @media screen {
+        display: grid;
+        place-items: center;
+        margin: 0 0 20px 5vw;
+        &Block {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 55px;
+            width: 42.5vw;
+        }
+    }
+
+    @media (max-width: 1050px) {
+        &Block {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 55px;
+            width: 80vw;
+            font-size: medium;
+        }
+    }
+
+    @media (max-width: 580px) {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 55px;
+        font-size: small;
+    }
+}

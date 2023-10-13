@@ -1,0 +1,22 @@
+.buttonCustom {
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    padding: 2.5px;
+    color: white;
+
+    &Text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        background-color: #6499E9;
+
+        &:hover {
+            transition: 0.25s;
+            background-color: #d1d1d1;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.buttonBuy {
+    button {
+        height: 30px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: ghostwhite;
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); 
+    }
+}

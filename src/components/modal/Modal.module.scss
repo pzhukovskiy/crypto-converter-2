@@ -1,0 +1,103 @@
+.modal {
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    &Close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 60px;
+        background-color: red;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    &Box {
+        display: flex;
+        background: white;
+        width: 50vw;
+        height: 70vh;
+        padding: 1rem;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    &Header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    &Buy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 30px;
+        background-color: rgb(0, 186, 0);
+        color: rgb(0, 63, 0);
+        border-radius: 5px;
+    }
+    
+    &Cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 40px;
+        background-color: red;
+        color: rgb(149, 0, 0);
+        border-radius: 5px;
+    }
+
+    &Image {
+        img {
+            height: 35px;
+        }
+    }
+
+    &Coin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &Body {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        margin: 30px 0 0 20px;
+
+        input {
+            height: 30px;
+            width: 150px;
+            background-color: ghostwhite;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+    }
+
+    &Bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 100%;
+        
+    }
+}

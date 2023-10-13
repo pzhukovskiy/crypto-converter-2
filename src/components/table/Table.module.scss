@@ -1,0 +1,128 @@
+.table {
+
+    @media screen {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        height: 55px;
+
+        &Index {
+            display: flex;
+            justify-content: center;
+            width: 10vw;
+            &::before {
+                content: '';
+            }
+        }
+
+        &Logo {
+            margin: 0 20px 0 0;
+            img {
+                height: 20px;
+            }
+        }
+
+        &Name {
+            width: 7.5vw;
+        }
+
+        &Symbol {
+            width: 5vw;
+            font-weight: 400;
+        }
+
+        &Price {
+            width: 7vw;
+        }
+
+        &MarketCapUsd {
+            width: 6vw;
+            margin: 0 10px 0 0;
+        }
+
+        &Day {
+            width: 5vw;
+            color: green;
+
+            &::after {
+                content: ' %';
+            }
+        }
+
+        &DayRed {
+            width: 5vw;
+            color: red;
+
+            &::after {
+                content: ' %';
+            }
+        }
+    }
+
+    @media (max-width: 1050px) {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        height: 55px;
+
+        &Index {
+            display: flex;
+            justify-content: center;
+            width: 15vw;
+            &::before {
+                content: '';
+            }
+        }
+
+        &Logo {
+            margin: 0 20px 0 0;
+            img {
+                height: 20px;
+            }
+        }
+
+        &Name {
+            width: 15vw;
+        }
+
+        &Symbol {
+            width: 10vw;
+            font-weight: 400;
+        }
+
+        &Price {
+            width: 14vw;
+        }
+
+        &MarketCapUsd {
+            width: 12vw;
+            margin: 0 10px 0 0;
+        }
+
+        &Day {
+            width: 10vw;
+            color: green;
+
+            &::after {
+                content: ' %';
+            }
+        }
+
+        &DayRed {
+            width: 10vw;
+            color: red;
+
+            &::after {
+                content: ' %';
+            }
+        }
+    }
+
+    @media (max-width: 580px) {
+        font-size: small;
+    }
+}
