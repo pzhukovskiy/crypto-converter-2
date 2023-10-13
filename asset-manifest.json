@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/etacar/static/css/main.fe8a792e.css",
+    "main.js": "/etacar/static/js/main.eb59bb74.js",
+    "index.html": "/etacar/index.html",
+    "main.fe8a792e.css.map": "/etacar/static/css/main.fe8a792e.css.map",
+    "main.eb59bb74.js.map": "/etacar/static/js/main.eb59bb74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe8a792e.css",
+    "static/js/main.eb59bb74.js"
+  ]
+}
