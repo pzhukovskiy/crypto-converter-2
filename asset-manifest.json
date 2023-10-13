@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/etacar/static/css/main.0a179db4.css",
-    "main.js": "/etacar/static/js/main.666c5a1f.js",
+    "main.css": "/etacar/static/css/main.b975da86.css",
+    "main.js": "/etacar/static/js/main.3b6e570b.js",
     "index.html": "/etacar/index.html",
-    "main.0a179db4.css.map": "/etacar/static/css/main.0a179db4.css.map",
-    "main.666c5a1f.js.map": "/etacar/static/js/main.666c5a1f.js.map"
+    "main.b975da86.css.map": "/etacar/static/css/main.b975da86.css.map",
+    "main.3b6e570b.js.map": "/etacar/static/js/main.3b6e570b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a179db4.css",
-    "static/js/main.666c5a1f.js"
+    "static/css/main.b975da86.css",
+    "static/js/main.3b6e570b.js"
   ]
 }
